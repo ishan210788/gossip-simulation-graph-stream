@@ -32,6 +32,7 @@ public class GraphManipulatorImpl implements GraphManipulator{
 			}else if(node_i%11 == 0){
 				interests.add("tennis");
 				interests.add("Serendipity");
+				interests.add("Hello");
 			}else{
 				interests.add("Game of Thrones");
 			}
