@@ -39,7 +39,6 @@ public class GraphManipulatorImpl implements GraphManipulator{
 			graph.addNode(user_name).addAttribute("ui.label", user_name);
 			graph.getNode(user_name).setAttribute("id", node_i);
 			graph.getNode(user_name).setAttribute("interests", interests );
-			//graph.getNode(user_name).addAttribute("ui.style", "node:clicked {fill-color: red;}");
 		}
 
 		//Adding random edges
